@@ -8,7 +8,7 @@ Project for Sprint 7 - Exploring and Cleaning Data with Pandas
 
 Sprint 7's project is about Instacart. Instacart is a grocery delivery platform where customers can place a grocery order and have it delivered to them, similar to how Uber Eats and Door Dash work. This particular dataset was publicly released by Instacart in 2017 for a Kaggle competition.
 
-The dataset provided have modified from the original by Practicum. They reduced the size of the dataset so calculations run faster and introduced missing and duplicate values. They were also careful to preserve the distributions of the original data when making the changes.
+The dataset provided has been modified from the original by Practicum. They reduced the size of the dataset so calculations can run faster. Practicum also introduced missing and duplicate values. They were also careful to preserve the distributions of the original data when making the changes.
 
 The necessary datasets that were provided are named: /aisles.csv, /departments.csv, /instacart_orders.csv, /order_products.csv, and /products.csv
 
@@ -29,7 +29,7 @@ This project also required good visulazations to communicate my findings from th
 - 'department_id': ID number that uniquely identifies each grocery department category
 - 'department': name of the department
 
-##### /instacart_orders.csv: **_each row corresponds to one order on the Instacart app_**
+##### /instacart*orders.csv: \*\*\_each row corresponds to one order on the Instacart app*\*\*
 
 - 'order_id': ID number that uniquely identifies each order
 - 'user_id': ID number that uniquely identifies each customer account
@@ -38,7 +38,7 @@ This project also required good visulazations to communicate my findings from th
 - 'order_hour_of_day': hour of the day that the order was placed
 - 'days_since_prior_order': number of days since this customer placed their previous order
 
-##### /order_products.csv: **_each row corresponds to one item placed in an order_**
+##### /order*products.csv: \*\*\_each row corresponds to one item placed in an order*\*\*
 
 - 'order_id': ID number that uniquely identifies each order
 - 'product_id': ID number that uniquely identifies each product
