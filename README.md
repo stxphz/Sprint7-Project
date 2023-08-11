@@ -23,13 +23,17 @@ This project also required good visulazations to communicate my findings from th
 
 - <code>'aisle_id'</code>: ID number that uniquely identifies each grocery aisle category
 - <code>'aisle'</code>: name of the aisle
+
   <br> </br>
-  <code>departments.csv</code>:
+
+<code>departments.csv</code>:
 
 - <code>'department_id'</code>: ID number that uniquely identifies each grocery department category
 - <code>'department'</code>: name of the department
-  <br> </br>
-  <code>instacart_orders.csv</code>: **each row corresponds to one order on the Instacart app**
+
+<br> </br>
+
+<code>instacart_orders.csv</code>: **each row corresponds to one order on the Instacart app**
 
 - <code>'order_id'</code>: ID number that uniquely identifies each order
 - <code>'user_id'</code>: ID number that uniquely identifies each customer account
@@ -37,15 +41,19 @@ This project also required good visulazations to communicate my findings from th
 - <code>'order_dow'</code>: day of the week that the order placed (which day is 0 is uncertain)
 - <code>'order_hour_of_day'</code>: hour of the day that the order was placed
 - <code>'days_since_prior_order'</code>: number of days since this customer placed their previous order
-  <br> </br>
-  <code>order_products.csv</code>: **each row corresponds to one item placed in an order**
+
+<br> </br>
+
+<code>order_products.csv</code>: **each row corresponds to one item placed in an order**
 
 - <code>'order_id'</code>: ID number that uniquely identifies each order
 - <code>'product_id'</code>: ID number that uniquely identifies each product
 - <code>'add_to_cart_order'</code>: the sequential order in which each item was placed in the cart
 - <code>'reordered'</code>: 0 if the customer has never ordered this product before, 1 if they have
-  <br> </br>
-  <code>products.csv</code>: each row corresponds to a unique product that customers can buy
+
+<br> </br>
+
+<code>products.csv</code>: each row corresponds to a unique product that customers can buy
 
 - <code>'product_id'</code>: ID number that uniquely identifies each product
 - <code>'product_name'</code>: name of the product
