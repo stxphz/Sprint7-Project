@@ -21,33 +21,33 @@ This project also required good visulazations to communicate my findings from th
 
 ##### <code>aisles.csv</code>:
 
-- <code>aisle_id</code>: ID number that uniquely identifies each grocery aisle category
-- <code>aisle</code>: name of the aisle
+- <code>'aisle_id'</code>: ID number that uniquely identifies each grocery aisle category
+- <code>'aisle'</code>: name of the aisle
 
 ##### <code>departments.csv</code>:
 
-- <code>department_id</code>: ID number that uniquely identifies each grocery department category
-- <code>department</code>: name of the department
+- <code>'department_id'</code>: ID number that uniquely identifies each grocery department category
+- <code>'department'</code>: name of the department
 
-##### <code>instacart\*orders.csv</code>: **_each row corresponds to one order on the Instacart app_**
+##### <code>'instacart*orders.csv'</code>: \*\*\_each row corresponds to one order on the Instacart app*\*\*
 
-- <code>order_id</code>: ID number that uniquely identifies each order
-- <code>user_id</code>: ID number that uniquely identifies each customer account
-- <code>order_number</code>: the number of times this customer has placed an order
-- <code>order_dow</code>: day of the week that the order placed (which day is 0 is uncertain)
-- <code>order_hour_of_day</code>: hour of the day that the order was placed
-- <code>days_since_prior_order</code>: number of days since this customer placed their previous order
+- <code>'order_id'</code>: ID number that uniquely identifies each order
+- <code>'user_id'</code>: ID number that uniquely identifies each customer account
+- <code>'order_number'</code>: the number of times this customer has placed an order
+- <code>'order_dow'</code>: day of the week that the order placed (which day is 0 is uncertain)
+- <code>'order_hour_of_day'</code>: hour of the day that the order was placed
+- <code>'days_since_prior_order'</code>: number of days since this customer placed their previous order
 
-##### <code>order\*products.csv</code>: **_each row corresponds to one item placed in an order_**
+##### <code>order*products.csv</code>: \*\*\_each row corresponds to one item placed in an order*\*\*
 
-- <code>order_id</code>: ID number that uniquely identifies each order
-- <code>product_id</code>: ID number that uniquely identifies each product
-- <code>add_to_cart_order</code>: the sequential order in which each item was placed in the cart
-- <code>reordered</code>: 0 if the customer has never ordered this product before, 1 if they have
+- <code>'order_id'</code>: ID number that uniquely identifies each order
+- <code>'product_id'</code>: ID number that uniquely identifies each product
+- <code>'add_to_cart_order'</code>: the sequential order in which each item was placed in the cart
+- <code>'reordered'</code>: 0 if the customer has never ordered this product before, 1 if they have
 
 ##### <code>products.csv</code>: **_each row corresponds to a unique product that customers can buy_**
 
-- <code>product_id</code>: ID number that uniquely identifies each product
-- <code>product_name</code>: name of the product
-- <code>aisle_id</code>: ID number that uniquely identifies each grocery aisle category
-- <code>department_id</code>: ID number that uniquely identifies each grocery department category
+- <code>'product_id'</code>: ID number that uniquely identifies each product
+- <code>'product_name'</code>: name of the product
+- <code>'aisle_id'</code>: ID number that uniquely identifies each grocery aisle category
+- <code>'department_id'</code>: ID number that uniquely identifies each grocery department category
