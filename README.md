@@ -29,7 +29,7 @@ This project also required good visulazations to communicate my findings from th
 - 'department_id': ID number that uniquely identifies each grocery department category
 - 'department': name of the department
 
-##### /instacart*orders.csv: \*\*\_each row corresponds to one order on the Instacart app*\*\*
+##### /instacart\*orders.csv: **_each row corresponds to one order on the Instacart app_**
 
 - 'order_id': ID number that uniquely identifies each order
 - 'user_id': ID number that uniquely identifies each customer account
@@ -38,7 +38,7 @@ This project also required good visulazations to communicate my findings from th
 - 'order_hour_of_day': hour of the day that the order was placed
 - 'days_since_prior_order': number of days since this customer placed their previous order
 
-##### /order*products.csv: \*\*\_each row corresponds to one item placed in an order*\*\*
+##### /order\*products.csv: **_each row corresponds to one item placed in an order_**
 
 - 'order_id': ID number that uniquely identifies each order
 - 'product_id': ID number that uniquely identifies each product
