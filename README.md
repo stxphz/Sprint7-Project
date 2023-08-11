@@ -10,7 +10,7 @@ Sprint 7's project is about Instacart. Instacart is a grocery delivery platform 
 
 The dataset provided has been modified from the original by Practicum. They reduced the size of the dataset so calculations can run faster. Practicum also introduced missing and duplicate values. They were also careful to preserve the distributions of the original data when making the changes.
 
-The necessary datasets that were provided are named: /aisles.csv, /departments.csv, /instacart_orders.csv, /order_products.csv, and /products.csv
+The necessary datasets that were provided are named: <code>aisles.csv</code>, <code>departments.csv</code>, <code>instacart_orders.csv</code>, <code>order_products.csv</code>, and <code>products.csv</code>
 
 The goal of this project is to clean up the data and prepare a report that gives insight into the shopping habits of Instacart customers.
 This project also required good visulazations to communicate my findings from the datasets.
@@ -19,35 +19,35 @@ This project also required good visulazations to communicate my findings from th
 
 ## DATA DICTIONARY
 
-##### /aisles.csv
+##### <code>aisles.csv</code>:
 
-- 'aisle_id': ID number that uniquely identifies each grocery aisle category
-- 'aisle': name of the aisle
+- <code>aisle_id</code>: ID number that uniquely identifies each grocery aisle category
+- <code>aisle</code>: name of the aisle
 
-##### /departments.csv
+##### <code>departments.csv</code>:
 
-- 'department_id': ID number that uniquely identifies each grocery department category
-- 'department': name of the department
+- <code>department_id</code>: ID number that uniquely identifies each grocery department category
+- <code>department</code>: name of the department
 
-##### /instacart\*orders.csv: **_each row corresponds to one order on the Instacart app_**
+##### <code>instacart\*orders.csv</code>: **_each row corresponds to one order on the Instacart app_**
 
-- 'order_id': ID number that uniquely identifies each order
-- 'user_id': ID number that uniquely identifies each customer account
-- 'order_number': the number of times this customer has placed an order
-- 'order_dow': day of the week that the order placed (which day is 0 is uncertain)
-- 'order_hour_of_day': hour of the day that the order was placed
-- 'days_since_prior_order': number of days since this customer placed their previous order
+- <code>order_id</code>: ID number that uniquely identifies each order
+- <code>user_id</code>: ID number that uniquely identifies each customer account
+- <code>order_number</code>: the number of times this customer has placed an order
+- <code>order_dow</code>: day of the week that the order placed (which day is 0 is uncertain)
+- <code>order_hour_of_day</code>: hour of the day that the order was placed
+- <code>days_since_prior_order</code>: number of days since this customer placed their previous order
 
-##### /order\*products.csv: **_each row corresponds to one item placed in an order_**
+##### <code>order\*products.csv</code>: **_each row corresponds to one item placed in an order_**
 
-- 'order_id': ID number that uniquely identifies each order
-- 'product_id': ID number that uniquely identifies each product
-- 'add_to_cart_order': the sequential order in which each item was placed in the cart
-- 'reordered': 0 if the customer has never ordered this product before, 1 if they have
+- <code>order_id</code>: ID number that uniquely identifies each order
+- <code>product_id</code>: ID number that uniquely identifies each product
+- <code>add_to_cart_order</code>: the sequential order in which each item was placed in the cart
+- <code>reordered</code>: 0 if the customer has never ordered this product before, 1 if they have
 
-##### /products.csv: **_each row corresponds to a unique product that customers can buy_**
+##### <code>products.csv</code>: **_each row corresponds to a unique product that customers can buy_**
 
-- 'product_id': ID number that uniquely identifies each product
-- 'product_name': name of the product
-- 'aisle_id': ID number that uniquely identifies each grocery aisle category
-- 'department_id': ID number that uniquely identifies each grocery department category
+- <code>product_id</code>: ID number that uniquely identifies each product
+- <code>product_name</code>: name of the product
+- <code>aisle_id</code>: ID number that uniquely identifies each grocery aisle category
+- <code>department_id</code>: ID number that uniquely identifies each grocery department category
